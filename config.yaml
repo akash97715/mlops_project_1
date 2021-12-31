@@ -1,0 +1,17 @@
+#Data path information
+
+Sorce_input_data_path_with_filename: "data/Healthcare Providers.csv"
+Row_wise_anomaly_output_data_path: "output/Row_wise_result.csv"
+
+
+#Isolation forest model hyperparameter tunning
+
+n_estimators: 300
+max_samples: 'auto'
+contamination: 'auto'
+max_features: 1.0
+bootstrap: False
+n_jobs: -1
+verbose: 1
+warm_start: False
+random_state: 2020
